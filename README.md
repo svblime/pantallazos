@@ -1,12 +1,13 @@
-# SVBLIME · Rediseño web (versión de prueba)
+# SVBLIME · Web nueva
 
-Este repositorio guarda solo la carpeta `rediseno`, lista para subir al hosting.
+- `publicar/`: la web lista para ser la página principal (sin contraseña, visible para Google).
+- `rediseno/`: la misma web con contraseña (**svblime**), para revisiones privadas en svblime.cl/rediseno/.
 
-## Cómo subirla
+## Publicar como página principal
 
-1. En GitHub: botón verde **Code** → **Download ZIP**.
-2. Descomprime el ZIP. Adentro está la carpeta `rediseno`.
-3. En FileZilla, borra la carpeta `rediseno` que está en el hosting y sube la nueva completa, al mismo nivel que `index.html` de la web.
-4. Se ve en https://www.svblime.cl/rediseno/ con la clave **svblime**. La página de contacto queda en /rediseno/contacto.html y las páginas de servicio y preguntas frecuentes en /rediseno/servicios/.
-
-El código fuente del rediseño está en el repositorio `svblime-web` (`src/rediseno/`). Cada vez que se actualice una idea, se vuelve a copiar aquí.
+1. En GitHub: botón verde **Code** → **Download ZIP** y descomprimir.
+2. En FileZilla, entrar a `public_html` (la raíz de svblime.cl).
+3. Abrir la carpeta `publicar` del ZIP, seleccionar **todo lo que hay adentro** y arrastrarlo a `public_html`.
+   Cuando pregunte, elegir **Sobrescribir** y marcar "usar siempre esta acción".
+4. **No borrar nada** del hosting: las propuestas (`propuesta`, `propuestasuv`, `backtojungle`) y el `.htaccess` se quedan como están.
+5. Abrir https://svblime.cl y recargar con Ctrl+Shift+R (en Mac: Cmd+Shift+R).
