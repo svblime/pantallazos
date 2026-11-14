@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /mejorada/
 
 Sitemap: https://svblime.cl/sitemap.xml
